@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calorie Tracker</h1>
+    <h2>Enter a meal below</h2>
+    <form>
+        <label for="mealname">Meal Name:</label>
+        <input type="text" id="mealname" placeholder="Food name here">
+
+        <label for="calories">Calories:</label>
+        <input type="number" id="calories" placeholder="Calories here">
+
+        <label for="protein">Protein:</label>
+        <input type="number" id="protein" placeholder="protein here">
+
+        <label for="carbohydrates">Carbs:</label>
+        <input type="number" id="carbohydrates" placeholder="carbs here">
+
+        <label for="fats">Fats:</label>
+        <input type="number" id="fats" placeholder="fats here">
+        <button type="button" id="addmeal">Add meal</button>
+     </form>
+     <p id="errormessage"></p>
+     <p id="mealtotals"></p>
+     <h3>Logged Meals:</h3>
+     <ul id="mealList"></ul>
+     <script src="consoleCalorieTracker.js"></script>
+</body>
+</html>
